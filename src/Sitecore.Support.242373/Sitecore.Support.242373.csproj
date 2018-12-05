@@ -44,6 +44,7 @@
   <ItemGroup>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\packages\SC.Sitecore.Kernel.9.0.2\lib\Sitecore.Kernel.dll</HintPath>
@@ -60,28 +61,34 @@
     <Reference Include="Sitecore.XA.Foundation.Grid, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\Sitecore.XA.Foundation.Grid.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.MarkupDecorator, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\Sitecore.XA.Foundation.MarkupDecorator.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Mvc, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\Sitecore.XA.Foundation.Mvc.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.SitecoreExtensions, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\Sitecore.XA.Foundation.SitecoreExtensions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Theming, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\Sitecore.XA.Foundation.Theming.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
@@ -109,9 +116,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XA\Foundation\Theming\Bundler\AssetLinksGenerator.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.242373.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

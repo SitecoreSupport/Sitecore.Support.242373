@@ -58,19 +58,24 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Grid, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.XA.Foundation.Grid.3.7.1\lib\NET462\Sitecore.XA.Foundation.Grid.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Sitecore.XA.Foundation.Grid.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.MarkupDecorator, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.XA.Foundation.MarkupDecorator.3.7.1\lib\NET462\Sitecore.XA.Foundation.MarkupDecorator.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Sitecore.XA.Foundation.MarkupDecorator.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Mvc, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.XA.Foundation.Mvc.3.7.1\lib\NET462\Sitecore.XA.Foundation.Mvc.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Sitecore.XA.Foundation.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.SitecoreExtensions, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.XA.Foundation.SitecoreExtensions.3.7.1\lib\NET462\Sitecore.XA.Foundation.SitecoreExtensions.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Sitecore.XA.Foundation.SitecoreExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Theming, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.XA.Foundation.Theming.3.7.1\lib\NET462\Sitecore.XA.Foundation.Theming.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Sitecore.XA.Foundation.Theming.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
